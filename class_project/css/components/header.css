@@ -1,0 +1,89 @@
+.top-header{
+    background: #455;
+    padding: 18px 0;
+}
+
+.top-header a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.top-header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header-addresses{
+    display: flex;
+}
+.top-header-addresses i {
+    color: #f2564d;
+}
+
+.vrline{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.top-header-links a {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.main-header{
+    padding: 30px 0;
+    background-color: #fff;
+    border: 1px solid black
+}
+
+.header-nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #000;
+}
+
+.header-nav a.active {
+    color: #f2564d
+}
+
+.under-header{
+    position: relative;
+    background-image: url('../../images/backgrounds/slider1.jpg');
+    background-size: cover;
+}
+
+.under-header-content{
+    position: relative;
+    z-index: 1;
+
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 200px 0;
+    line-height: 1.5;
+}
+.under-header-content > h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.under-header-content > p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}

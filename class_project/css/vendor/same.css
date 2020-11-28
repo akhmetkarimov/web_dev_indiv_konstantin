@@ -1,0 +1,15 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #f2564d;
+    transition: .5s;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

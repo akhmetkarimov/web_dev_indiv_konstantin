@@ -139,3 +139,10 @@ p:hover {
     /* width:100%; */
     opacity: 1;
 }
+
+.rounded, .rounded img, .rounded div {
+    border-radius: 35px;
+}
+.second-cell, .second-cell img, .second-cell div {
+    border-radius: 30px;
+}
