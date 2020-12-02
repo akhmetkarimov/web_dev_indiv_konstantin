@@ -13,3 +13,96 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
+.btn-row{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: fit-content;
+    height: 40px;
+
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+}
+.btn-orange{
+    background-color: #f2564d;
+}
+
+.btn-black {
+    background-color: #000;
+}
+
+.btn-orange:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-black:hover{
+    background-color: #f2564d;
+    color: #fff;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+
+.top-secton.center{
+    text-align: center;
+}
+
+.top-secton h3 {
+    color: #455;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.top-secton p{
+    line-height: 1.5;
+    color: #777;
+    font-size: 14px;
+}
+
+.top-secton.center .top-line{
+    margin: 20px auto;
+}
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.template-elem {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.template-elem a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.template-elem p {
+    margin-top: 15px;
+    color: #777;
+    font-size: 14px;
+}

@@ -1,0 +1,44 @@
+.top-line{
+    width: 40px;
+    height: 1px;
+    background-color: #f2564d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.service-elem {
+    width: calc(100% / 3 - 3%); 
+}
+
+.service-icon{
+    font-size: 30px;
+    margin-right: 15px;
+    color: #f2564d;
+}
+
+.main-about{
+    display: flex;
+}
+
+.about-block{
+    width: 50%;
+    background-color: #F8F8F8;
+}
+
+.about-bg {
+    background-image: url('../../images/backgrounds/about-bg.jpg');
+    background-size: cover;
+}
+
+.about-inner.container {
+    width: 80%;
+}
+
+.about-elem {
+    width: calc(100% / 2 - 3%);
+}
+
+.about-block .wrap {
+    margin-top: 60px;
+}
