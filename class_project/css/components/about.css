@@ -17,7 +17,7 @@
     color: #f2564d;
 }
 
-.main-about{
+.main-about, .main-service{
     display: flex;
 }
 
@@ -41,4 +41,20 @@
 
 .about-block .wrap {
     margin-top: 60px;
+}
+
+.service-block {
+    background-color: #fff;
+}
+.service-bg {
+    background-image: url('../../images/backgrounds/service-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+
+}
+.service-elem{
+    width: 100%;
+    margin-bottom: 50px;
 }

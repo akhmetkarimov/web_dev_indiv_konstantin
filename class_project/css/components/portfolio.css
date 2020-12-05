@@ -1,0 +1,60 @@
+.portfolio-nav {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.portfolio-nav a {
+    color: #000;
+}
+
+.portfolio-elem{
+    cursor: pointer;
+    position: relative;
+    width: calc(100% / 3 - 5%);
+    margin-bottom: 50px;
+}
+.portfolio-elem img{
+    width: 100%;
+}
+
+.into-line{
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    margin: 20px auto;
+    transition: 1s;
+}
+
+.into-portfolio {
+    background-color: rgba(242, 86, 77, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: scale(0);
+    transition: .4s;
+}
+
+.portfolio-elem:hover .into-portfolio{
+    transform: scale(1);
+}
+
+.portfolio-elem:hover .into-line{
+    width: 50%;
+    height: 1px;
+}
+.into-content {
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+.into-content i {
+    font-size: 26px;
+}

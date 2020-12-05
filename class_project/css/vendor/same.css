@@ -44,7 +44,12 @@ a:hover {
     background-color: #000;
 }
 
-.btn-orange:hover{
+.btn-white {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-orange:hover, .btn-white:hover{
     background-color: #000;
     color: #fff;
 }
@@ -104,5 +109,37 @@ a:hover {
 .template-elem p {
     margin-top: 15px;
     color: #777;
+    font-size: 14px;
+}
+
+.consult{
+    background-color: #435555;
+}
+
+.consult.section-padding {
+    padding: 60px 0;
+}
+
+.inner-consult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consult-block {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.consult-block h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.consult-block h4 {
+    font-size: 26px;
+}
+
+.consult-block p {
     font-size: 14px;
 }
