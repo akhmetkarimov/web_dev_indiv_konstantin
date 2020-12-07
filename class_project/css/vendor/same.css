@@ -97,6 +97,7 @@ a:hover {
     display: flex;
     align-items: flex-start;
     line-height: 1.5;
+    width: 30%;
 }
 
 .template-elem a {

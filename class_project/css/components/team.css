@@ -1,0 +1,58 @@
+.main-team{
+    background-color: #F8F8F8;
+
+}
+.team-item {
+    cursor: pointer;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.team-content a {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+}
+
+.team-content p {
+    color: #c7c7c7;
+    font-style: italic;
+}
+.team-image {
+    position: relative;
+}
+.into-team{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255, .7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+
+    transition: .5s;
+}
+
+.into-team a {
+    color: #f2564d;
+    margin-left: 10px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.into-team a:hover {
+    color: #000;
+}
+
+.team-item:hover .into-team{
+    opacity: 1;
+}
+
+.main-team .wrap {
+    margin-top: 60px;
+}

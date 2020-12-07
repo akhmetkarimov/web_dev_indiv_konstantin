@@ -58,3 +58,38 @@
 .into-content i {
     font-size: 26px;
 }
+
+.main-counter{
+    background: url('../../images/backgrounds/stat-bg.jpg');
+    background-attachment: fixed;
+    background-position: top;
+
+    position: relative;
+    z-index: 4;
+}
+
+.dark-counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.counter-item {
+    width: calc(100% / 4 - 3%);
+    text-align: center;
+    color: #fff;
+} 
+.counter-item i {
+    font-size: 40px;
+}
+.counter-item h4 {
+    font-size: 30px;
+    color: #f2564d;
+    font-weight: bold;
+    margin: 15px 0;
+}
