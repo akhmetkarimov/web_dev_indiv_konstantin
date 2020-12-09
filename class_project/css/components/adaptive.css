@@ -1,0 +1,79 @@
+@media (max-width: 1250px){
+    .under-header-content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1050px){
+    .top-header {
+        display: none;
+    }
+    .header-nav {
+        display: none;
+    }
+    .mobile-header.fas {
+        display: block;
+    }
+
+    .portfolio-elem, .team-item{
+        width: calc(100% / 2 - 3%);
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+    .main-about, .main-service{
+        flex-direction: column-reverse;
+    }
+    .main-service {
+        flex-direction: column;
+    }
+    .about-block {
+        width: 100%;
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 920px) {
+    .inner-consult {
+        flex-direction: column;
+    } 
+    .consult-block {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 835px) {
+    .under-header-content {
+        width: 80%;
+    } 
+}
+
+@media (max-width: 768px) {
+    .template-elem, .counter-item {
+        width: calc(100% / 2 - 3%);
+        margin-bottom: 50px;
+    }
+
+    .under-header-content > h1 {
+        font-size: 32px;
+    }
+    .btn-row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 550px) {
+    .template-elem, .counter-item{
+        width: 100%;
+    }
+    .portfolio-elem, .team-item{
+        width: 100%;
+    }
+}

@@ -3,9 +3,14 @@
 
 }
 .team-item {
+    width: calc(100% / 3 - 3%);
     cursor: pointer;
     line-height: 1.5;
     text-align: center;
+}
+
+.team-image img {
+    width: 100%;
 }
 
 .team-content a {
