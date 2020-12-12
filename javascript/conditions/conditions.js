@@ -121,14 +121,14 @@
 //      console.log ('4')
 //  }
 
-let a =  prompt('a')
-let b = prompt('b')
-let c = prompt('c')
-let d = ((b*2)- 4*a*c)
+// let a =  prompt('a')
+// let b = prompt('b')
+// let c = prompt('c')
+// let d = ((b*2)- 4*a*c)
 
-if (d>0) {
-    console.log(-b - Math.sqrt(d) / 2 * a)
-    console.log(-b + Math.sqrt(d) / 2 * a)
-} else {
-    console.log(-b / 2 * a)
-}
+// if (d>0) {
+//     console.log(-b - Math.sqrt(d) / 2 * a)
+//     console.log(-b + Math.sqrt(d) / 2 * a)
+// } else {
+//     console.log(-b / 2 * a)
+// }
