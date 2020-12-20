@@ -162,17 +162,62 @@
 
 
 
-let num = 142342 // 2 + 4 + 3 + 2 + 4 + 1 = 16
-let countEven = 0
+// let num = 142342 // 2 + 4 + 3 + 2 + 4 + 1 = 16
+// let countEven = 0
 
-while (num > 0) {
-    let temp = num % 10
+// while (num > 0) {
+//     let temp = num % 10
     
-    if (temp % 2 == 0) {
-        countEven = countEven + 1
-    }
+//     if (temp % 2 == 0) {
+//         countEven = countEven + 1
+//     }
     
-    num = Math.floor(num / 10)
-}
+//     num = Math.floor(num / 10)
+// }
 
-console.log(countEven)
+// console.log(countEven)
+
+
+// let result = ''
+// for (let i = 0; i < 6; i++) {
+//     result += '*'
+//     document.write('*')
+//     console.log('*')
+// }
+// console.log(result)
+
+// for (let i = 0; i < 4; i++) {
+
+//     for (let j = 0; j < 4; j++) {
+//         document.write('*')
+//     }
+
+//     document.write('<br>')
+// }
+
+
+// for (let i = 0; i < 4; i++) {
+
+//     for (let j = 0; j < 4; j++) {
+//         document.write('row: ' + i + ' column: ' + j)
+//         document.write('<br>')
+//     }
+
+// }
+
+// &nbsp
+
+// let size = Number(prompt('Enter size of pri')) // 6
+
+// for (let i = 1; i <= size; i++) {
+                    
+//     for (let s = size; s >= i; s--) {
+//         document.write('&nbsp&nbsp')
+//     }
+
+//     for (let j = 1; j <= i; j++) {
+//         document.write('*')
+//     }
+
+//     document.write('<br>')
+// }
